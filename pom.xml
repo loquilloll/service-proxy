@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Copyright 2012, predic8 GmbH, www.predic8.com Licensed under the Apache 
+<?xml version="1.0" encoding="UTF-8"?><!-- Copyright 2012, predic8 GmbH, www.predic8.com Licensed under the Apache 
 	License, Version 2.0 (the "License"); you may not use this file except in 
 	compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
 	Unless required by applicable law or agreed to in writing, software distributed 
@@ -6,13 +6,13 @@
 	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
 	the specific language governing permissions and limitations under the License. --><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.membrane-soa.service-proxy</groupId>
-	<artifactId>service-proxy-parent</artifactId>
-	<version>4.0.18-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<modelVersion xmlns="">4.0.0</modelVersion>
+	<groupId xmlns="">org.membrane-soa.service-proxy</groupId>
+	<artifactId xmlns="">service-proxy-parent</artifactId>
+	<version xmlns="">4.0.18-SNAPSHOT</version>
+	<packaging xmlns="">pom</packaging>
 
-	<developers>
+	<developers xmlns="">
 		<developer>
 			<organization>predic8 GmbH</organization>
 			<organizationUrl>http://predic8.com/</organizationUrl>
@@ -20,7 +20,7 @@
 		</developer>
 	</developers>
 
-	<licenses>
+	<licenses xmlns="">
 		<license>
 			<name>Apache License, Version 2.0</name>
 			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
@@ -28,24 +28,24 @@
 		</license>
 	</licenses>
 
-	<scm>
+	<scm xmlns="">
 		<connection>scm:git:https://github.com/membrane/service-proxy/</connection>
 		<tag>HEAD</tag>
 	</scm>
 
-    <issueManagement>
+    <issueManagement xmlns="">
         <system>Github Issue Tracker</system>
         <url>https://github.com/membrane/service-proxy/issues</url>
     </issueManagement>
 
-	<mailingLists>
+	<mailingLists xmlns="">
 		<mailingList>
 			<name>membrane-monitor</name>
 			<subscribe>http://groups.google.com/group/membrane-monitor</subscribe>
 		</mailingList>
 	</mailingLists>
 
-	<modules>
+	<modules xmlns="">
 		<module>annot</module>
 		<module>core</module>
 		<module>cli</module>
@@ -56,14 +56,14 @@
 		<module>test</module>
 	</modules>
 
-	<properties>
+	<properties xmlns="">
 		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>ISO-8859-1</project.reporting.outputEncoding>
 		<javac.source>1.6</javac.source>
 		<javac.target>1.6</javac.target>
 	</properties>
 
-	<dependencyManagement>
+	<dependencyManagement xmlns="">
 		<dependencies>
 			<dependency>
 				<groupId>org.membrane-soa.service-proxy</groupId>
@@ -325,14 +325,14 @@
 		</dependencies>
 	</dependencyManagement>
 
-	<repositories>
+	<repositories xmlns="">
 		<repository>
 			<id>predic8-releases</id>
 			<url>http://repository.membrane-soa.org/content/groups/public</url>
 		</repository>
 	</repositories>
 
-	<build>
+	<build xmlns="">
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -499,7 +499,7 @@
 		</pluginManagement>
 	</build>
 
-	<distributionManagement>
+	<distributionManagement xmlns="">
 		<repository>
 			<id>predic8-releases</id>
 			<url>http://repository.membrane-soa.org/content/repositories/releases</url>

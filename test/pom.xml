@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- 
+<?xml version="1.0" encoding="UTF-8"?><!-- 
    Copyright 2012, predic8 GmbH, www.predic8.com
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,18 +14,18 @@
    limitations under the License.
  --><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     
-    <modelVersion>4.0.0</modelVersion>
-    <artifactId>service-proxy-test</artifactId>
-    <packaging>jar</packaging>
+    <modelVersion xmlns="">4.0.0</modelVersion>
+    <artifactId xmlns="">service-proxy-test</artifactId>
+    <packaging xmlns="">jar</packaging>
 
-    <parent>
+    <parent xmlns="">
         <groupId>org.membrane-soa.service-proxy</groupId>
         <artifactId>service-proxy-parent</artifactId>
         <relativePath>../pom.xml</relativePath>
         <version>4.0.18-SNAPSHOT</version>
     </parent>
 
-	<dependencies>
+	<dependencies xmlns="">
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>

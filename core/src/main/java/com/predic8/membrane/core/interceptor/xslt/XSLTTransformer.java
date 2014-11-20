@@ -37,7 +37,7 @@ import com.predic8.membrane.core.resolver.ResourceRetrievalException;
 public class XSLTTransformer {
 	private static Log log = LogFactory.getLog(XSLTTransformer.class.getName());
 
-	private final TransformerFactory fac = TransformerFactory.newInstance();
+	private final TransformerFactory fac = new net.sf.saxon.TransformerFactoryImpl();
 	private final ArrayBlockingQueue<Transformer> transformers;
 	private final String styleSheet;
 	

@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<artifactId>com.predic8.membrane.osgi.extender</artifactId>
-	<name>Membrane OSGi Blueprint Extender</name>
-	<packaging>bundle</packaging>
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion xmlns="">4.0.0</modelVersion>
+	<artifactId xmlns="">com.predic8.membrane.osgi.extender</artifactId>
+	<name xmlns="">Membrane OSGi Blueprint Extender</name>
+	<packaging xmlns="">bundle</packaging>
 
-    <parent>
+    <parent xmlns="">
         <groupId>org.membrane-soa.service-proxy</groupId>
         <artifactId>service-proxy-parent</artifactId>
         <relativePath>../pom.xml</relativePath>
         <version>4.0.18-SNAPSHOT</version>
     </parent>
 
-	<dependencies>
+	<dependencies xmlns="">
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-beans</artifactId>
@@ -83,7 +83,7 @@
 		</dependency>
 	</dependencies>
 
-	<build>
+	<build xmlns="">
 		<pluginManagement>
 			<plugins>
 				<plugin>
